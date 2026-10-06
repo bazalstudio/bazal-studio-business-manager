@@ -1,0 +1,1 @@
+(async()=>{const u=Uint8Array.from(atob(window.__BUNDLE_B64||''),c=>c.charCodeAt(0));const ds=new DecompressionStream('gzip');const t=await new Response(new Blob([u]).stream().pipeThrough(ds)).text();(0,eval)(t)})().catch(e=>{console.error(e);document.body.innerHTML='<pre style="padding:20px;font-family:Arial">App load failed: '+String(e)+'</pre>'});
