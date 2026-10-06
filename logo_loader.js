@@ -1,0 +1,1 @@
+window.BAZAL_LOGO_DATA='data:image/webp;base64,'+(window.__LOGO_B64||'');document.querySelectorAll('[data-bazal-logo]').forEach(i=>i.src=window.BAZAL_LOGO_DATA);
